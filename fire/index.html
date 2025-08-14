@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlameTrack - Продвинутая система обнаружения пожаров</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-fire"></i>
+                <span>FlameTrack</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">О нас</a></li>
+                <li><a href="#features" class="nav-link">Функции</a></li>
+                <li><a href="#characteristics" class="nav-link">Достижения</a></li>
+                <li><a href="#gallery" class="nav-link">Галерея</a></li>
+                <li><a href="#certifications" class="nav-link">Сертификации</a></li>
+                <li><a href="#roadmap" class="nav-link">Планы</a></li>
+                <li><a href="#pricing" class="nav-link">Цены</a></li>
+                <li><a href="#team" class="nav-link">Команда</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Мониторинг.
+                        Ликвидация.<div class="lik">
+                            Озеленение.</div></span>
+                </h1>
+                <p class="hero-subtitle">Революционная технология беспилотников, которая обнаруживает пожары до их распространения, защищая жизни и имущество с беспрецедентной точностью.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Начать</a>
+                    <a href="#about" class="btn btn-secondary">Больше</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="drone-animation">
+                    <div class="drone">
+                        <div class="drone-body"></div>
+                        <div class="propeller prop1"></div>
+                        <div class="propeller prop2"></div>
+                        <div class="propeller prop3"></div>
+                        <div class="propeller prop4"></div>
+                        <div class="camera"></div>
+                    </div>
+                    <div class="scan-line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Принцип работы</h2>
+            <div class="operating-line-container">
+                <div class="operating-line">
+                    <div class="line-segment" data-step="1">
+                        <div class="step-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="step-label">Расширенное видение</div>
+                        <div class="step-description">Мультиспектральные камеры обнаруживают тепловые сигнатуры и дымовые следы</div>
+                    </div>
+                    <div class="line-segment" data-step="2">
+                        <div class="step-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="step-label">ИИ Анализ</div>
+                        <div class="step-description">Алгоритмы машинного обучения анализируют данные в режиме реального времени.</div>
+                    </div>
+                    <div class="line-segment" data-step="3">
+                        <div class="step-icon">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                        <div class="step-label">Автономный полет</div>
+                        <div class="step-description">Запрограммированные траектории с обходом препятствий</div>
+                    </div>
+                    <div class="line-segment" data-step="4">
+                        <div class="step-icon">
+                            <i class="fas fa-bell"></i>
+                        </div>
+                        <div class="step-label">Мгновенные оповещения</div>
+                        <div class="step-description">Немедленные уведомления служб экстренной помощи</div>
+                    </div>
+                </div>
+                <div class="drone-container">
+                    <div class="drone">
+                        <div class="drone-body"></div>
+                        <div class="propeller prop1"></div>
+                        <div class="propeller prop2"></div>
+                        <div class="propeller prop3"></div>
+                        <div class="propeller prop4"></div>
+                        <div class="camera"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Главные фунции</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-number">01</div>
+                    <h3>Мониторинг 24/7</h3>
+                    <p>Непрерывное наблюдение с автоматическим патрулированием и передачей данных в режиме реального времени.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">02</div>
+                    <h3>Высокая точность</h3>
+                    <p>Точность обнаружения составляет 96,55%, при частоте ложных срабатываний менее 0,1%.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">03</div>
+                    <h3>Устойчив к погодным условиям</h3>
+                    <p>Работает в экстремальных условиях: от -20°С до 60°С, дождь, ветер до 50 км/ч.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">04</div>
+                    <h3>Дальность</h3>
+                    <p>Дальность обнаружения — 100 га, время полета — 48 минут на один цикл работы батареи.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">05</div>
+                    <h3>Простая интеграция</h3>
+                    <p>Полная интеграция с существующими системами пожарной безопасности (МЧС) и протоколами реагирования на чрезвычайные ситуации.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">06</div>
+                    <h3>Аналитика данных</h3>
+                    <p>Комплексная отчетно-аналитическая панель для оценки рисков.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications (Circular) Section -->
+    <section id="characteristics" class="specs">
+        <div class="specs-overlay"></div>
+        <div class="specs-inner container">
+            <h2 class="section-title">Технические характеристики дрона</h2>
+            
+            <div class="specs-circles">
+                <div class="spec-circle" data-spec="flight">
+                    <div class="circle-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Летные характеристики</h3>
+                    <p>Максимальная скорость: 10 м/с<br>Высота полета: до 50 м<br>Время полета: 48 мин</p>
+                </div>
+                
+                <div class="spec-circle" data-spec="camera">
+                    <div class="circle-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Камера</h3>
+                    <p>HD<br><br></p>
+                </div>
+                
+                <div class="spec-circle" data-spec="power">
+                    <div class="circle-icon">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>Питание</h3>
+                    <p>Литий-полимерный аккумулятор<br>6000 мАч<br>Быстрая зарядка</p>
+                </div>
+                
+                <div class="spec-circle" data-spec="safety">
+                    <div class="circle-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Безопасность</h3>
+                    <p>GPS навигация<br>Автоматическое возвращение<br>Защита от столкновений</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Image Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Посадка</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gallery-image-container">
+                        <img src="semena.jpg" alt="Проект 1" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <p>Тест в Республиканском Лесном Селекционном Семенноводческом Центре</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gallery-image-container">
+                        <img src="semena1.jpg" alt="Проект 2" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="gallery-image-container">
+                        <img src="semena3.jpg" alt="Проект 3" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <p>Тестирование семян. 26/30 семян проросло</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="gallery-image-container">
+                        <img src="WhatsApp Image 2025-08-14 at 01.34.27 (1).jpeg" alt="Проект 3" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <p>Встреча с Волковым Борисом Георгиевичем (Начальник отдела внедрения нов.техн. по Лесозащите) и Слесаренко Александром Васильевичем (Начальник отдела Лесоустройства)</p>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="gallery-image-container">
+                        <img src="WhatsApp Image 2025-08-14 at 01.34.27.jpeg" alt="Проект 3" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <p>Провели опрос среди работников Алматинского филиала научно-исследовательского института лесного хозяйства</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="gallery-image-container">
+                        <img src="WhatsApp Image 2025-08-14 at 01.34.47.jpeg" alt="Проект 3" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <p>Мы провели встречу с потенциальными клиентами в виде ДЧС г.Алматы и договорились о пилотном запуске</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Characteristic Details Modal -->
+    <div id="characteristicModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent">
+                <!-- Content will be dynamically loaded -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Certifications Section -->
+     <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Планируемые Сертификации</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3> ТР ТС 043</h3>
+                    <p>Сертификат соответствия требованиям пожарной безопасности.</p>
+                    <div class="certification-date">Планируется: Июнь 2026</div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>ТР ТС 020/2011</h3>
+                    <p>Сертификат на «Электромагнитную совместимость»</p>
+                    <div class="certification-date">Планируется: Июль 2026</div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>ТР ТС 004/2011</h3>
+                    <p>Сертификат «О безопасности низковольтного оборудования».</p>
+                    <div class="certification-date">Планируется: Июль 2026</div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>IP55</h3>
+                    <p>Сертификат «Защита от пыли и воды».</p>
+                    <div class="certification-date">Планируется: Август 2026</div>
+                </div>
+    </section>
+
+    <!-- Project Roadmap Section -->
+    <section id="roadmap" class="roadmap">
+        <div class="container">
+            <h2 class="section-title">План Развития Проекта</h2>
+            <p class="roadmap-subtitle">Наш путь к революции в технологии обнаружения пожаров и глобальному масштабированию</p>
+            
+            <div class="roadmap-container">
+                <div class="roadmap-line"></div>
+                
+                <!-- Phase 1: Foundation -->
+                <div class="roadmap-phase" data-phase="1">
+                    <div class="phase-marker">
+                        <div class="marker-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="phase-number">1</div>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <h3>Основание</h3>
+                            <span class="phase-date">Второе полугодие 2025г.</span>
+                        </div>
+                        <div class="phase-milestones">
+                            <div class="milestone">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Разработка основных технологий беспилотных летательных аппаратов</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-check-circle"></i>
+                                <span> Соглашения с лес. хозяйствами/ службами МЧС на тесты</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Первые тестировки в Ханской Роще (ЗКО) и Зеренды</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-spinner"></i>
+                                <span>Первые показы для потенциальных клиентов (МЧС, ЛЕСХОЗ)</span>
+                            </div>
+                        </div>
+                        <div class="phase-status completed">Фаза завершена</div>
+                    </div>
+                </div>
+
+                <!-- Phase 2: Growth -->
+                <div class="roadmap-phase" data-phase="2">
+                    <div class="phase-marker">
+                        <div class="marker-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="phase-number">2</div>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <h3>Запуск</h3>
+                            <span class="phase-date">Первое полугодие 2026г.</span>
+                        </div>
+                        <div class="phase-milestones">
+                            <div class="milestone">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Получение государственных сертификаций</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-spinner"></i>
+                                <span>Развитие партнерства</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Расширенное развертывание функций</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Пилотные проекты в лесах Казахстана (Каскеленское лес. хоз.)</span>
+                            </div>
+                        </div>
+                        <div class="phase-status current">В процессе</div>
+                    </div>
+                </div>
+
+                <!-- Phase 3: Scale -->
+                <div class="roadmap-phase" data-phase="3">
+                    <div class="phase-marker">
+                        <div class="marker-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="phase-number">3</div>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <h3>Расширение - scale-up</h3>
+                            <span class="phase-date">Второе полугодие 2026</span>
+                        </div>
+                        <div class="phase-milestones">
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Продажи B2B и B2G. Первые контракты с МЧС </span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Поддержка нескольких языков</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Платформа расширенной аналитики</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Точка прибыли</span>
+                            </div>
+                        </div>
+                        <div class="phase-status upcoming">Предстоящее</div>
+                    </div>
+                </div>
+
+                <!-- Phase 4: Innovation -->
+                <div class="roadmap-phase" data-phase="4">
+                    <div class="phase-marker">
+                        <div class="marker-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="phase-number">4</div>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <h3>Go-to-market</h3>
+                            <span class="phase-date">Первое полугодие 2027</span>
+                        </div>
+                        <div class="phase-milestones">
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Внедрение планнеров для более длительных полетов</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Расширенние датасета</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Отраслевые партнерства</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Освоение Adjacent Segment</span>
+                            </div>
+                        </div>
+                        <div class="phase-status upcoming">Предстоящее</div>
+                    </div>
+                </div>
+
+                <!-- Phase 5: Future -->
+                <div class="roadmap-phase" data-phase="5">
+                    <div class="phase-marker">
+                        <div class="marker-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="phase-number">5</div>
+                    </div>
+                    <div class="phase-content">
+                        <div class="phase-header">
+                            <h3>Видение будущего</h3>
+                            <span class="phase-date">2027+</span>
+                        </div>
+                        <div class="phase-milestones">
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Расширение многоотраслевой деятельности</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Расширенная интеграция робототехники</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Глобальная сеть реагирования на чрезвычайные ситуации</span>
+                            </div>
+                            <div class="milestone">
+                                <i class="fas fa-clock"></i>
+                                <span>Установление отраслевых стандартов</span>
+                            </div>
+                        </div>
+                        <div class="phase-status future">Будущее</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Timeline Controls -->
+            <div class="roadmap-controls">
+                <button class="timeline-btn active" data-phase="all">Все Фазы</button>
+                <button class="timeline-btn" data-phase="1">Фаза 1</button>
+                <button class="timeline-btn" data-phase="2">Фаза 2</button>
+                <button class="timeline-btn" data-phase="3">Фаза 3</button>
+                <button class="timeline-btn" data-phase="4">Фаза 4</button>
+                <button class="timeline-btn" data-phase="5">Фаза 5</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Цены</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>B2B</h3>
+                        <div class="pricing-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="price">
+                            <span class="currency">₸</span>
+                            <span class="amount">67.380</span>
+                            <span class="period">/год</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Для коммерческих организаций</li>
+                        <li><i class="fas fa-check"></i> Лесные хозяйства</li>
+                        <li><i class="fas fa-check"></i> Промышленные объекты</li>
+                        <li><i class="fas fa-check"></i> Частные компании</li>
+                        <li><i class="fas fa-check"></i> Гибкие условия оплаты</li>
+                        <li><i class="fas fa-check"></i> Техническая поддержка</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Выбрать B2B</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Преимущественно</div>
+                    <div class="pricing-header">
+                        <h3>B2G</h3>
+                        <div class="pricing-icon">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <div class="price">
+                            <span class="currency">₸</span>
+                            <span class="amount">41,400</span>
+                            <span class="period">/100 га</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Для государственных учреждений</li>
+                        <li><i class="fas fa-check"></i> МЧС и службы безопасности</li>
+                        <li><i class="fas fa-check"></i> Муниципальные образования</li>
+                        <li><i class="fas fa-check"></i> Национальные парки</li>
+                        <li><i class="fas fa-check"></i> Приоритетная поддержка</li>
+                        <li><i class="fas fa-check"></i> Специальные условия</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Выбрать B2G</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title">Наша Команда</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div style="background-image: url(./demeu.jpeg); background-repeat: no-repeat; background-size: cover;" class="photo-placeholder">
+                        </div>
+                    </div>
+                    <h3>Демеу Туганбаев</h3>
+                    <p class="member-role">Team Lead</p>
+                    <p class="member-bio">KFC Boss</p>
+                </div>
+                
+                          
+                                     <div class="team-member">
+                    <div class="member-photo">
+                        <div style="background-image: url(./tairsh.jpeg); background-repeat: no-repeat; background-size: cover;"  class="photo-placeholder">
+                </div>
+                    </div>
+                    <h3>Таир Шамуратов</h3>
+                    <p class="member-role">CTO</p>
+                    <p class="member-bio">"Я тут папочка"</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <div style="background-image: url(./elnadir.jpeg); background-repeat: no-repeat; background-size: cover;"  class="photo-placeholder">
+                          
+                        </div>
+                    </div>
+                    <h3>Эльнадир Дүйсембай</h3>
+                    <p class="member-role">Frontend DEV</p>
+                    <p class="member-bio">Любитель поспать</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Адрес</h4>
+                            <p>Ихсанова 131<br>Уральск, Казахстан</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Телефон</h4>
+                            <p>+7-707-704-04-09</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>abilov_a9040@ura.nis.edu.kz</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Время Работы</h4>
+                            <p>Пн-Пт: 9:00 AM - 6:00 PM<br>Суб: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="applicationForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Полное Имя</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" required>
+                            <label for="phone">Номер телефона</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="company" name="company" required>
+                                <option value="">Выбрать вид компании</option>
+                                <option value="forestry">Управление лесным хозяйством</option>
+                                <option value="industrial">Промышленный объект</option>
+                                <option value="residential">Жилой комплекс</option>
+                                <option value="government">Правительственное агентство</option>
+                                <option value="other">Другие</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="plan" name="plan" required>
+                                <option value="">Выбрать план</option>
+                                <option value="starter">Стартовый план</option>
+                                <option value="professional">Профессиональный план</option>
+                                <option value="enterprise">План предприятия</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message">Дополнительные требования</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Подать заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-fire"></i>
+                        <span>FlameTrack</span>
+                    </div>
+                    <p>Защита жизней и имущества с помощью передовой технологии обнаружения пожаров на основе искусственного интеллекта.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Быстрые ссылки</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#features">Функции</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#pricing">Цены</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +7-707-704-04-09</li>
+                        <li><i class="fas fa-envelope"></i> abilov_a9040@ura.nis.edu.kz</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Уральск, Казахстан</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Следите за нами</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FlameTrack. Все права зарезервированы.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
